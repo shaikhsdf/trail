@@ -34,9 +34,9 @@
             <div>
                 <input type="password" name="password" id="password" autocomplete="off" max="50" placeholder="Password" >
             </div>
-            <div class="lf" id="btn">
+            <div class="lf" >
                 <div>
-                    <button class="loginbtn">Login</button>
+                    <button id="btn" class="loginbtn">Login</button>
                 </div>
                 <div>
                     <a>Forgot Password?</a>
@@ -48,8 +48,7 @@
  
     <script>
        function one() {
-        var element = document.getElementById("btn");
-        element.classList.toggle("clr1btn");
+        document.getElementById("btn").className = ".clr1btn";
         }
     </script>
 </body>

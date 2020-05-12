@@ -1,7 +1,7 @@
 @mixin bgblur {
     filter: blur(8px);
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0, 0, 0, 0.1)), url('/img/best-company-intranet-1280x720.jpg');
+    background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0, 0, 0, 0.1)), url('./img/best-company-intranet-1280x720.jpg');
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-attachment: fixed !important;
@@ -102,9 +102,9 @@ input{
 
 .clr1btn{
     .loginbtn{
-        background-color: red;
+        background-color: rgb(218, 25, 115);
     }
     span{
-        color: red;
+        color: rgb(218, 25, 115);
     }
 }

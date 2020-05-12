@@ -32,11 +32,11 @@ input {
 }
 
 .clr1btn .loginbtn {
-  background-color: red;
+  background-color: #da1973;
 }
 
 .clr1btn span {
-  color: red;
+  color: #da1973;
 }
 
 body, html {
@@ -50,8 +50,8 @@ body, html {
   -webkit-filter: blur(8px);
           filter: blur(8px);
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.1))), url("/img/best-company-intranet-1280x720.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("/img/best-company-intranet-1280x720.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.1))), url("./img/best-company-intranet-1280x720.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("./img/best-company-intranet-1280x720.jpg");
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-attachment: fixed !important;
