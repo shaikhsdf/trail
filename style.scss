@@ -1,0 +1,41 @@
+@import "./variables";
+@import "./loginpage";
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif,Calibri;
+    overflow-x: hidden;
+}
+
+
+
+.bg{
+    @include bgblur();
+}
+.maindiv{
+    @include logindiv();
+    background-color : $box-color;
+}
+.lf{
+    @include flexlf();
+}
+
+#clr1{
+    @include clrbtn(rgb(218, 25, 115));
+}
+
+#clr2{
+    @include clrbtn($btn-color);
+}
+
+#clr3{
+    @include clrbtn(rgb(56, 209, 138));
+}
+.colors{
+    @include flexlf();
+}
+
+#clr4{
+    @include clrbtn(darkslategrey);
+}

@@ -1,0 +1,215 @@
+.maindiv p {
+  font-size: 10px;
+  color: #726E6E;
+}
+
+.maindiv span {
+  font-size: 11px;
+  color: #197784;
+  font-weight: bold;
+}
+
+form div {
+  padding-bottom: 18px;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+  max-width: 150px;
+  width: 100%;
+  padding: 35px 0px 0px 0px;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.13);
+  border: 1px solid rgba(190, 181, 181, 0.4);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 1px;
+}
+
+.clr1btn .loginbtn {
+  background-color: red;
+}
+
+.clr1btn span {
+  color: red;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif,Calibri;
+  overflow-x: hidden;
+}
+
+.bg {
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.1))), url("/img/best-company-intranet-1280x720.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("/img/best-company-intranet-1280x720.jpg");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  z-index: -1;
+}
+
+.maindiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 20000;
+  text-align: center !important;
+  margin: 0 auto;
+  max-width: 350px;
+  width: 100%;
+  background-color: #ffffff;
+  background-color: #ffffff;
+}
+
+.lf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  text-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.lf div {
+  text-align: center;
+}
+
+.lf .loginbtn {
+  background-color: #197784;
+  left: 0px;
+  width: 125px;
+  border: none;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.lf a {
+  color: #726E6E;
+  font-size: 12px;
+  padding-left: 7px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+  .lf {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .lf .loginbtn {
+    width: 250px;
+  }
+}
+
+#clr1 {
+  border-radius: 50%;
+  z-index: 200;
+  text-align: center !important;
+  margin: 0 auto;
+  width: 25px;
+  height: 25px;
+  background-color: #da1973;
+}
+
+#clr2 {
+  border-radius: 50%;
+  z-index: 200;
+  text-align: center !important;
+  margin: 0 auto;
+  width: 25px;
+  height: 25px;
+  background-color: #197784;
+}
+
+#clr3 {
+  border-radius: 50%;
+  z-index: 200;
+  text-align: center !important;
+  margin: 0 auto;
+  width: 25px;
+  height: 25px;
+  background-color: #38d18a;
+}
+
+.colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  text-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.colors div {
+  text-align: center;
+}
+
+.colors .loginbtn {
+  background-color: #197784;
+  left: 0px;
+  width: 125px;
+  border: none;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.colors a {
+  color: #726E6E;
+  font-size: 12px;
+  padding-left: 7px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+  .colors {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .colors .loginbtn {
+    width: 250px;
+  }
+}
+
+#clr4 {
+  border-radius: 50%;
+  z-index: 200;
+  text-align: center !important;
+  margin: 0 auto;
+  width: 25px;
+  height: 25px;
+  background-color: darkslategrey;
+}
+/*# sourceMappingURL=style.css.map */

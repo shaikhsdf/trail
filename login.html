@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="bg">     
+    </section>   
+    <div class="colors">
+        <div>
+            <button id="clr1" onclick="one()"></button>
+        </div>
+        <div>
+            <button id="clr2"></button>
+        </div>
+        <div>
+            <button id="clr3"></button>
+        </div>
+        <div>
+            <button id="clr4"></button>
+        </div>    
+    </div>
+    <div class="maindiv">       
+        <form>
+            <div>
+                <img src="./img/unnamed.jpg" alt="Company Logo">
+            </div>          
+            <div>
+                <input autocomplete="off" type="text" name="username" id="username" maxlength="100" placeholder="Username">
+            </div>
+            <div>
+                <input type="password" name="password" id="password" autocomplete="off" max="50" placeholder="Password" >
+            </div>
+            <div class="lf" id="btn">
+                <div>
+                    <button class="loginbtn">Login</button>
+                </div>
+                <div>
+                    <a>Forgot Password?</a>
+                </div>                
+            </div>
+        </form>   
+        <p>© all rights reserved by <span>Company Name</span> </p>     
+    </div>
+ 
+    <script>
+       function one() {
+        var element = document.getElementById("btn");
+        element.classList.toggle("clr1btn");
+        }
+    </script>
+</body>
+
+
+</html>
