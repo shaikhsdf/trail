@@ -91,20 +91,13 @@ input{
 }
 
 @mixin clrbtn($c) { 
-    border-radius: 50%;
-    z-index: 200;
-    text-align: center !important;   
-    margin: 0 auto;
-    width: 25px;
-    height: 25px;
-    background-color: $c;
-}
 
-.clr1btn{
+    background-color: $c !important;
     .loginbtn{
-        background-color: rgb(218, 25, 115);
+        background-color: rgb(218, 25, 115) !important;
     }
     span{
-        color: rgb(218, 25, 115);
+        color: rgb(218, 25, 115) !important;
     }
+
 }

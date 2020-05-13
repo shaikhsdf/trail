@@ -31,14 +31,6 @@ input {
   border-radius: 1px;
 }
 
-.clr1btn .loginbtn {
-  background-color: #da1973;
-}
-
-.clr1btn span {
-  color: #da1973;
-}
-
 body, html {
   height: 100%;
   margin: 0;
@@ -123,34 +115,40 @@ body, html {
   }
 }
 
-#clr1 {
-  border-radius: 50%;
-  z-index: 200;
-  text-align: center !important;
-  margin: 0 auto;
-  width: 25px;
-  height: 25px;
-  background-color: #da1973;
+.clr1 {
+  background-color: #da1973 !important;
 }
 
-#clr2 {
-  border-radius: 50%;
-  z-index: 200;
-  text-align: center !important;
-  margin: 0 auto;
-  width: 25px;
-  height: 25px;
-  background-color: #197784;
+.clr1 .loginbtn {
+  background-color: #da1973 !important;
 }
 
-#clr3 {
-  border-radius: 50%;
-  z-index: 200;
-  text-align: center !important;
-  margin: 0 auto;
-  width: 25px;
-  height: 25px;
-  background-color: #38d18a;
+.clr1 span {
+  color: #da1973 !important;
+}
+
+.clr2 {
+  background-color: #197784 !important;
+}
+
+.clr2 .loginbtn {
+  background-color: #da1973 !important;
+}
+
+.clr2 span {
+  color: #da1973 !important;
+}
+
+.clr3 {
+  background-color: #38d18a !important;
+}
+
+.clr3 .loginbtn {
+  background-color: #da1973 !important;
+}
+
+.clr3 span {
+  color: #da1973 !important;
 }
 
 .colors {
@@ -203,13 +201,15 @@ body, html {
   }
 }
 
-#clr4 {
-  border-radius: 50%;
-  z-index: 200;
-  text-align: center !important;
-  margin: 0 auto;
-  width: 25px;
-  height: 25px;
-  background-color: darkslategrey;
+.clr4 {
+  background-color: darkslategrey !important;
+}
+
+.clr4 .loginbtn {
+  background-color: #da1973 !important;
+}
+
+.clr4 span {
+  color: #da1973 !important;
 }
 /*# sourceMappingURL=style.css.map */

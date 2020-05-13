@@ -21,21 +21,21 @@ body, html{
     @include flexlf();
 }
 
-#clr1{
+.clr1{
     @include clrbtn(rgb(218, 25, 115));
 }
 
-#clr2{
+.clr2{
     @include clrbtn($btn-color);
 }
 
-#clr3{
+.clr3{
     @include clrbtn(rgb(56, 209, 138));
 }
 .colors{
     @include flexlf();
 }
 
-#clr4{
+.clr4{
     @include clrbtn(darkslategrey);
 }

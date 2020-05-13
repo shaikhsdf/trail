@@ -11,16 +11,16 @@
     </section>   
     <div class="colors">
         <div>
-            <button id="clr1" onclick="one()"></button>
+            <button id="clr1" class="clr1" onclick="one()" style="border-radius: 50%; width : 25px; height: 25px;"></button>
         </div>
         <div>
-            <button id="clr2"></button>
+            <button id="clr2" class="clr2" onclick="two()" style="border-radius: 50%; width : 25px; height: 25px;"></button>
         </div>
         <div>
-            <button id="clr3"></button>
+            <button id="clr3" class="clr3" onclick="three()" style="border-radius: 50%; width : 25px; height: 25px;"></button>
         </div>
         <div>
-            <button id="clr4"></button>
+            <button id="clr4" class="clr4" onclick="four()" style="border-radius: 50%; width : 25px; height: 25px;"></button>
         </div>    
     </div>
     <div class="maindiv">       
@@ -43,12 +43,25 @@
                 </div>                
             </div>
         </form>   
-        <p>© all rights reserved by <span>Company Name</span> </p>     
+        <p>© all rights reserved by <span id='company'>Company Name</span> </p>     
     </div>
  
     <script>
-       function one() {
-        document.getElementById("btn").className = ".clr1btn";
+        function one(){
+            var ele = document.getElementById('btn');
+            ele.classList.toggle('clr1');
+        }
+        function two(){
+            var ele = document.getElementById('btn');
+            ele.classList.toggle('clr2');
+        }
+        function three(){
+            var ele = document.getElementById('btn');
+            ele.classList.toggle('clr3');
+        }
+        function four(){
+            var ele = document.getElementById('btn');
+            ele.classList.toggle('clr4');
         }
     </script>
 </body>
